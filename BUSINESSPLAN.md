@@ -17,8 +17,14 @@ Our market is mature, since there are a lot of products that students use while 
 
 ### Market Analysis
 
-### Target Audience
-
+#### Persona Grids
+##### Grid 1:
+|   |   |
+|---|---|
+|**Sketch Name**  |**Pain Ponts/Needs**|
+|Focused Student <br> ![alt text](https://www.shutterstock.com/image-photo/portrait-female-student-holding-books-260nw-1144635998.jpg) | -Studious college student <br> -"I want to take classes that interest me" <br> -Comfort with technology: 8/10 <br> -Does not care how difficult classes are <br> -Wants to take classes similar but not exactly the same as her major|
+|**Demographic Info**|**Solutions**|
+|-Age Range: 18-22 <br> -Profession: Student <br> -Parents pay for her college <br> -Not first-generation college student|-Add option to disregard amount of classes (recommend solely based on interest) <br> -Emphasize classes based on her interests <br> -Add filter/switch to ignore classes in her major|
 ### Business Metrics
 
 ### Monetization Strategy
