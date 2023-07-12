@@ -60,7 +60,7 @@
             "reactType": "Text",
             "properties": {
                 "Text": "Add a Course",
-                "FontSize": 30,
+                "FontSize": 34,
                 "CustomFont": "",
                 "LineHeight": 1,
                 "Color": "rgba(0, 0, 0, 1)",
@@ -75,7 +75,7 @@
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
-                    "fontSize": 30,
+                    "fontSize": 34,
                     "fontStyle": "normal",
                     "textShadowOffset": {},
                     "letterSpacing": 0,

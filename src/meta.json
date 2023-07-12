@@ -11,7 +11,11 @@
             "backendUpgradeVersion": 20,
             "blockly": {
                 "30fbaec3-2f86-4d1c-86d7-af016b2ae18b": {},
-                "ed736d61-bde2-4c97-bc86-03c13883dc4c": {}
+                "ed736d61-bde2-4c97-bc86-03c13883dc4c": {},
+                "1e12fd1b-5384-4b1d-83a0-c0d189e3243f": {},
+                "fe94a51b-d086-4c36-94e1-cf86da011cf5": {},
+                "c96ae409-9790-4777-882d-5dc2a4454d22": {},
+                "6398d6c1-db8e-438e-a284-4eecec16a529": {}
             },
             "categories": [
                 "Education"
