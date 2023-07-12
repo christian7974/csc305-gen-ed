@@ -35,6 +35,8 @@ Our market is mature, since there are a lot of products that students use while 
 |Retention|Increase user reliance on the application.|Users return to the application each semester|Searches per user per semester.|
 |Task Success||||
 
+- Searches per user per semester
+  - When the search button is clicked, an event will be logged through Firebase Analytics. All search events from each user within each semester period will be aggragated and displayed on a graph. 
 
 ### Monetization Strategy
 
