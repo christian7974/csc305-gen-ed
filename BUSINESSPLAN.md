@@ -27,6 +27,15 @@ Our market is mature, since there are a lot of products that students use while 
 |-Age Range: 18-22 <br> -Profession: Student <br> -Parents pay for her college <br> -Not first-generation college student|-Add option to disregard amount of classes (recommend solely based on interest) <br> -Emphasize classes based on her interests <br> -Add filter/switch to ignore classes in her major|
 ### Business Metrics
 
+|   |Goals|Signals|Metrics|
+|---|---|---|---|
+|Happiness||||
+|Engagement||||
+|Adoption||||
+|Retention|Increase user reliance on the application.|Users return to the application each semester|Searches per user per semester.|
+|Task Success||||
+
+
 ### Monetization Strategy
 
 ### Marking Strategy
