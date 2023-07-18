@@ -12,10 +12,15 @@
             "blockly": {
                 "30fbaec3-2f86-4d1c-86d7-af016b2ae18b": {},
                 "ed736d61-bde2-4c97-bc86-03c13883dc4c": {},
-                "1e12fd1b-5384-4b1d-83a0-c0d189e3243f": {},
+                "6398d6c1-db8e-438e-a284-4eecec16a529": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    }
+                },
                 "fe94a51b-d086-4c36-94e1-cf86da011cf5": {},
-                "c96ae409-9790-4777-882d-5dc2a4454d22": {},
-                "6398d6c1-db8e-438e-a284-4eecec16a529": {}
+                "c96ae409-9790-4777-882d-5dc2a4454d22": {}
             },
             "categories": [
                 "Education"
@@ -33,7 +38,7 @@
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "Group1 Wireframe",
+            "projectName": "GenEd",
             "settings": {
                 "teamId": null,
                 "appName": null,
@@ -45,7 +50,7 @@
                 "androidVersionCode": 1,
                 "iosVersionNumber": "1",
                 "iosBuildNumber": "1",
-                "firebaseAPIKey": null,
+                "firebaseAPIKey": "AIzaSyBdyfXuv1sBvQwzZao8GyxO7FnIAAFxoYs",
                 "firebaseDatabaseURL": null,
                 "stripePublishableKeyTest": null,
                 "stripePublishableKeyLive": null,
@@ -89,7 +94,7 @@
                 "androidVersionCode": 1,
                 "iosVersionNumber": "1",
                 "iosBuildNumber": "1",
-                "firebaseAPIKey": null,
+                "firebaseAPIKey": "AIzaSyBdyfXuv1sBvQwzZao8GyxO7FnIAAFxoYs",
                 "firebaseDatabaseURL": null,
                 "stripePublishableKeyTest": null,
                 "stripePublishableKeyLive": null,
@@ -134,7 +139,28 @@
             "totalCopy": "0",
             "totalStar": "0",
             "starAction": "star",
-            "variables": {},
+            "variables": {
+                "7f048363-86ff-402b-8697-8d7c6ab0187c": {
+                    "scope": "APP",
+                    "name": "isSignIn",
+                    "screenId": "6398d6c1-db8e-438e-a284-4eecec16a529"
+                },
+                "13a9a711-143f-4056-91c4-ea0f3142f192": {
+                    "scope": "STORED",
+                    "name": "password",
+                    "screenId": "6398d6c1-db8e-438e-a284-4eecec16a529"
+                },
+                "f6903a66-6411-41ac-a694-8f65c3ed4de7": {
+                    "scope": "STORED",
+                    "name": "email",
+                    "screenId": "6398d6c1-db8e-438e-a284-4eecec16a529"
+                },
+                "2bce2478-acb5-4023-85ec-c300d3bed9ab": {
+                    "scope": "APP",
+                    "name": "userId",
+                    "screenId": "6398d6c1-db8e-438e-a284-4eecec16a529"
+                }
+            },
             "defaultDesignerDevice": "PHONE",
             "defaultDesignerOrientation": "PORTRAIT",
             "schemaVersion": 2,

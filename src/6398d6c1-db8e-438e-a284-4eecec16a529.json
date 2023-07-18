@@ -111,9 +111,9 @@
                 "Height": 49,
                 "Width": 311,
                 "Visible": true,
-                "X": 28,
+                "X": 34,
                 "Y": 570,
-                "RelativeX": 28,
+                "RelativeX": 34,
                 "RelativeY": 570,
                 "ResizeMode": "STRETCH",
                 "style": {
@@ -151,7 +151,7 @@
             "children": [],
             "id": "f0165685-5a02-4aaa-b07d-0cbef08a5b38",
             "thunkableVersion": 413,
-            "name": "Sign In Instead"
+            "name": "Sign_Toggle_Button"
         },
         {
             "type": "Button",
@@ -169,6 +169,7 @@
                 "Y": 488,
                 "RelativeX": 91,
                 "RelativeY": 488,
+
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -200,30 +201,31 @@
                 "ParentId": "6398d6c1-db8e-438e-a284-4eecec16a529",
                 "position": "absolute",
                 "edgeOffsets": 488,
+
                 "Font": "Montserrat"
             },
             "children": [],
             "id": "e71dbec8-6750-4c95-ba37-2ea9a3220fe2",
             "thunkableVersion": 413,
-            "name": "Sign in"
+            "name": "Sign_Submit_Button"
         },
         {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "Label",
+                "Text": "",
                 "FontSize": 18,
                 "CustomFont": "",
                 "LineHeight": 1,
                 "Color": "rgba(0, 0, 0, 1)",
-                "Height": 49,
-                "Width": 313,
-                "Visible": false,
-                "X": 32,
-                "Y": 385,
-                "RelativeX": 32,
-                "RelativeY": 385,
+                "Height": 119,
+                "Width": 317,
+                "Visible": true,
+                "X": 29,
+                "Y": 369,
+                "RelativeX": 29,
+                "RelativeY": 369,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -260,25 +262,25 @@
                     "left": "30.533333333333335%",
                     "top": "46.392428785607194%",
                     "lineHeight": 1,
-                    "display": "none"
+                    "display": "flex"
                 },
                 "ParentId": "6398d6c1-db8e-438e-a284-4eecec16a529",
                 "position": "absolute",
-                "edgeOffsets": 385,
-                "children": "Label"
+                "edgeOffsets": 369,
+                "children": ""
             },
             "children": [],
             "id": "d386d857-d00e-45ae-9235-6a708e79ed89",
             "thunkableVersion": 413,
-            "name": "Error"
+            "name": "Sign_Error_Label"
         },
         {
             "type": "TextInput",
             "translatedName": "Text Input",
             "properties": {
                 "Hint": "password",
-                "Height": 40,
-                "Width": 313,
+                "Height": 42,
+                "Width": 315,
                 "Visible": true,
                 "X": 30,
                 "Y": 322,
@@ -334,7 +336,7 @@
             "children": [],
             "id": "1a8a1cc0-f1fb-4095-97b7-17218a70fd7c",
             "thunkableVersion": 413,
-            "name": "Text_Input2"
+            "name": "Sign_Password_Input"
         },
         {
             "type": "TextInput",
@@ -400,7 +402,7 @@
             "children": [],
             "id": "099122b6-d8ba-411b-9da4-27fb62282f84",
             "thunkableVersion": 413,
-            "name": "Text_Input1"
+            "name": "Sign_Email_Input"
         },
         {
             "type": "Label",
@@ -473,5 +475,5 @@
     ],
     "id": "6398d6c1-db8e-438e-a284-4eecec16a529",
     "thunkableVersion": 413,
-    "name": "SignIn/Up Screen"
+    "name": "Sign_Screen"
 }
