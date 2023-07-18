@@ -10,17 +10,31 @@
             "assets": {},
             "backendUpgradeVersion": 20,
             "blockly": {
-                "30fbaec3-2f86-4d1c-86d7-af016b2ae18b": {},
-                "ed736d61-bde2-4c97-bc86-03c13883dc4c": {},
-                "6398d6c1-db8e-438e-a284-4eecec16a529": {
+                "30fbaec3-2f86-4d1c-86d7-af016b2ae18b": {
                     "xml": "",
                     "permissions": {
                         "android": [],
                         "ios": []
                     }
                 },
+                "ed736d61-bde2-4c97-bc86-03c13883dc4c": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    }
+                },
+                "1e12fd1b-5384-4b1d-83a0-c0d189e3243f": {},
                 "fe94a51b-d086-4c36-94e1-cf86da011cf5": {},
-                "c96ae409-9790-4777-882d-5dc2a4454d22": {}
+                "c96ae409-9790-4777-882d-5dc2a4454d22": {},
+                "6398d6c1-db8e-438e-a284-4eecec16a529": {},
+                "90263f22-e960-4359-b3da-0ccdfcd0b144": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    }
+                }
             },
             "categories": [
                 "Education"
@@ -32,13 +46,14 @@
                     "fe94a51b-d086-4c36-94e1-cf86da011cf5",
                     "30fbaec3-2f86-4d1c-86d7-af016b2ae18b",
                     "ed736d61-bde2-4c97-bc86-03c13883dc4c",
-                    "1e12fd1b-5384-4b1d-83a0-c0d189e3243f"
+                    "1e12fd1b-5384-4b1d-83a0-c0d189e3243f",
+                    "90263f22-e960-4359-b3da-0ccdfcd0b144"
                 ]
             },
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "GenEd",
+            "projectName": "Group1 Wireframe",
             "settings": {
                 "teamId": null,
                 "appName": null,
@@ -50,7 +65,7 @@
                 "androidVersionCode": 1,
                 "iosVersionNumber": "1",
                 "iosBuildNumber": "1",
-                "firebaseAPIKey": "AIzaSyBdyfXuv1sBvQwzZao8GyxO7FnIAAFxoYs",
+                "firebaseAPIKey": null,
                 "firebaseDatabaseURL": null,
                 "stripePublishableKeyTest": null,
                 "stripePublishableKeyLive": null,
@@ -94,7 +109,7 @@
                 "androidVersionCode": 1,
                 "iosVersionNumber": "1",
                 "iosBuildNumber": "1",
-                "firebaseAPIKey": "AIzaSyBdyfXuv1sBvQwzZao8GyxO7FnIAAFxoYs",
+                "firebaseAPIKey": null,
                 "firebaseDatabaseURL": null,
                 "stripePublishableKeyTest": null,
                 "stripePublishableKeyLive": null,
@@ -131,7 +146,207 @@
             "hasBluetoothLowEnergy": null,
             "hasPushNotification": false,
             "hasAssistant": null,
-            "dataSourceLinks": [],
+            "dataSourceLinks": [
+                {
+                    "id": "64b5c37fe21e67bb4668973d",
+                    "dataSource": {
+                        "id": "64b5c37d743cc41fbd496831",
+                        "name": "Gen Ed App Data",
+                        "configuration": {
+                            "id": "64b5c37d743cc4406e496832",
+                            "type": "GOOGLE_SHEETS",
+                            "__typename": "GoogleSheetsDataSourceConfiguration"
+                        },
+                        "collections": [
+                            {
+                                "id": "64b5c37fe21e674f6b68972f",
+                                "name": "0",
+                                "label": "List of Majors",
+                                "fields": [
+                                    {
+                                        "id": "64b5c37fe21e6718a4689730",
+                                        "name": "376934958-0",
+                                        "label": "Major Code",
+                                        "type": "STRING",
+                                        "__typename": "DataSourceField"
+                                    }
+                                ],
+                                "__typename": "DataSourceCollection"
+                            },
+                            {
+                                "id": "64b5c37fe21e676ae9689731",
+                                "name": "612112788",
+                                "label": "CSC",
+                                "fields": [
+                                    {
+                                        "id": "64b5c37fe21e67df98689732",
+                                        "name": "2538419-0",
+                                        "label": "Course Code",
+                                        "type": "STRING",
+                                        "__typename": "DataSourceField"
+                                    },
+                                    {
+                                        "id": "64b5c37fe21e675acc689733",
+                                        "name": "387664624-1",
+                                        "label": "Name of Course",
+                                        "type": "STRING",
+                                        "__typename": "DataSourceField"
+                                    },
+                                    {
+                                        "id": "64b5c37fe21e678d0c689734",
+                                        "name": "1523168871-2",
+                                        "label": "Gen Ed",
+                                        "type": "STRING",
+                                        "__typename": "DataSourceField"
+                                    }
+                                ],
+                                "__typename": "DataSourceCollection"
+                            },
+                            {
+                                "id": "64b5c37fe21e674afe689735",
+                                "name": "1749796857",
+                                "label": "MTH",
+                                "fields": [
+                                    {
+                                        "id": "64b5c37fe21e67df12689736",
+                                        "name": "1854800986-0",
+                                        "label": "Course Code",
+                                        "type": "STRING",
+                                        "__typename": "DataSourceField"
+                                    },
+                                    {
+                                        "id": "64b5c37fe21e678952689737",
+                                        "name": "1888723367-1",
+                                        "label": "Name of Course",
+                                        "type": "STRING",
+                                        "__typename": "DataSourceField"
+                                    },
+                                    {
+                                        "id": "64b5c37fe21e673754689738",
+                                        "name": "964020077-2",
+                                        "label": "Gen Ed",
+                                        "type": "STRING",
+                                        "__typename": "DataSourceField"
+                                    }
+                                ],
+                                "__typename": "DataSourceCollection"
+                            },
+                            {
+                                "id": "64b5c37fe21e6749a9689739",
+                                "name": "255430214",
+                                "label": "PHL",
+                                "fields": [
+                                    {
+                                        "id": "64b5c37fe21e67e97f68973a",
+                                        "name": "1679138747-0",
+                                        "label": "Course Code",
+                                        "type": "STRING",
+                                        "__typename": "DataSourceField"
+                                    },
+                                    {
+                                        "id": "64b5c37fe21e6755e268973b",
+                                        "name": "1150822438-1",
+                                        "label": "Name of Course",
+                                        "type": "STRING",
+                                        "__typename": "DataSourceField"
+                                    },
+                                    {
+                                        "id": "64b5c37fe21e67461a68973c",
+                                        "name": "1109707281-2",
+                                        "label": "Gen Ed",
+                                        "type": "STRING",
+                                        "__typename": "DataSourceField"
+                                    }
+                                ],
+                                "__typename": "DataSourceCollection"
+                            }
+                        ],
+                        "__typename": "DataSource"
+                    },
+                    "__typename": "DataSourceLink"
+                },
+                {
+                    "id": "64b69b4dfd13b4caa38dca47",
+                    "dataSource": {
+                        "id": "64b69b4cfd13b409368dca46",
+                        "name": "Reorganized Gen Ed App Data",
+                        "configuration": {
+                            "id": "64b69b4c25f18e6b2ca66978",
+                            "type": "GOOGLE_SHEETS",
+                            "__typename": "GoogleSheetsDataSourceConfiguration"
+                        },
+                        "collections": [
+                            {
+                                "id": "64b69b4d25f18ea3f5a66979",
+                                "name": "0",
+                                "label": "Courses",
+                                "fields": [],
+                                "__typename": "DataSourceCollection"
+                            },
+                            {
+                                "id": "64b69b4d25f18e7440a6697d",
+                                "name": "979954638",
+                                "label": "Majors",
+                                "fields": [
+                                    {
+                                        "id": "64b69b60fd13b4261d8dca48",
+                                        "name": "108013543-0",
+                                        "label": "CSC",
+                                        "type": "STRING",
+                                        "__typename": "DataSourceField"
+                                    },
+                                    {
+                                        "id": "64b69b7cfd13b441d18dca4d",
+                                        "name": "1565158572-1",
+                                        "label": "PHL",
+                                        "type": "STRING",
+                                        "__typename": "DataSourceField"
+                                    },
+                                    {
+                                        "id": "64b69b7cfd13b45a638dca4e",
+                                        "name": "375787087-2",
+                                        "label": "MTH",
+                                        "type": "STRING",
+                                        "__typename": "DataSourceField"
+                                    }
+                                ],
+                                "__typename": "DataSourceCollection"
+                            },
+                            {
+                                "id": "64b6a2d725f18ebf7aa66a11",
+                                "name": "238378807",
+                                "label": "Courses 2",
+                                "fields": [
+                                    {
+                                        "id": "64b6a2d725f18e69bba66a12",
+                                        "name": "1704673114-0",
+                                        "label": "Course Code",
+                                        "type": "STRING",
+                                        "__typename": "DataSourceField"
+                                    },
+                                    {
+                                        "id": "64b6a2d725f18e7b5fa66a13",
+                                        "name": "1463061732-1",
+                                        "label": "Course Name",
+                                        "type": "STRING",
+                                        "__typename": "DataSourceField"
+                                    },
+                                    {
+                                        "id": "64b6a2d725f18e93fda66a14",
+                                        "name": "1897145078-2",
+                                        "label": "Gen Ed Outcomes",
+                                        "type": "STRING",
+                                        "__typename": "DataSourceField"
+                                    }
+                                ],
+                                "__typename": "DataSourceCollection"
+                            }
+                        ],
+                        "__typename": "DataSource"
+                    },
+                    "__typename": "DataSourceLink"
+                }
+            ],
             "localDataSources": [],
             "customProperties": [],
             "modules": [],
@@ -140,25 +355,15 @@
             "totalStar": "0",
             "starAction": "star",
             "variables": {
-                "7f048363-86ff-402b-8697-8d7c6ab0187c": {
+                "2e5e81ec-0f80-49e3-9869-2409b66c191f": {
                     "scope": "APP",
-                    "name": "isSignIn",
-                    "screenId": "6398d6c1-db8e-438e-a284-4eecec16a529"
+                    "name": "currentCourseObject",
+                    "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
                 },
-                "13a9a711-143f-4056-91c4-ea0f3142f192": {
-                    "scope": "STORED",
-                    "name": "password",
-                    "screenId": "6398d6c1-db8e-438e-a284-4eecec16a529"
-                },
-                "f6903a66-6411-41ac-a694-8f65c3ed4de7": {
-                    "scope": "STORED",
-                    "name": "email",
-                    "screenId": "6398d6c1-db8e-438e-a284-4eecec16a529"
-                },
-                "2bce2478-acb5-4023-85ec-c300d3bed9ab": {
+                "8218b8e4-f190-4c63-a393-041b9c138b28": {
                     "scope": "APP",
-                    "name": "userId",
-                    "screenId": "6398d6c1-db8e-438e-a284-4eecec16a529"
+                    "name": "courseInformation",
+                    "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
                 }
             },
             "defaultDesignerDevice": "PHONE",
