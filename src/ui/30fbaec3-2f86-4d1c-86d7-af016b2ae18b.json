@@ -60,17 +60,17 @@
             "reactType": "ListView",
             "properties": {
                 "TextItems": [],
-                "TextItemsColor": "rgba(176, 176, 176, 1)",
+                "TextItemsColor": "rgba(0, 0, 0, 1)",
                 "TextItemsBackgroundColor": "rgba(0,0,0,0)",
                 "TextItemsFontSize": 16,
-                "ShowArrow": true,
-                "Height": 106,
-                "Width": 315,
+                "ShowArrow": false,
+                "Height": 151,
+                "Width": 319,
                 "Visible": true,
-                "X": 28,
-                "Y": 463,
-                "RelativeX": 28,
-                "RelativeY": 463,
+                "X": 34,
+                "Y": 355,
+                "RelativeX": 34,
+                "RelativeY": 355,
                 "ResizeMode": "STRETCH",
                 "Justification": "center",
                 "Alignment": "center",
@@ -100,7 +100,7 @@
                 },
                 "ParentId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b",
                 "position": "absolute",
-                "edgeOffsets": 463.00000000000006
+                "edgeOffsets": 355
             },
             "children": [],
             "id": "5aa0c6b8-a867-4eb3-a0de-7d7e69803ae8",
@@ -135,14 +135,14 @@
                 "Height": 156,
                 "Width": 361,
                 "Visible": true,
-                "X": 9,
-                "Y": 100,
-                "RelativeX": 9,
-                "RelativeY": 100,
+                "X": 8,
+                "Y": 87,
+                "RelativeX": 8,
+                "RelativeY": 87,
                 "ResizeMode": "STRETCH",
                 "ParentId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b",
                 "position": "absolute",
-                "edgeOffsets": 100,
+                "edgeOffsets": 87,
                 "style": {
                     "position": "absolute",
                     "left": "27.066666666666666%",
@@ -288,7 +288,7 @@
                                         "numberOfLines": 1
                                     },
                                     "children": [],
-                                    "id": "8c49f062-f1f4-43ba-a464-7fce28a92b9e",
+                                    "id": "d9048511-1fbe-4b6e-89bc-410a7556ff99",
                                     "thunkableVersion": 413,
                                     "bindings": {
                                         "Text": {
@@ -303,9 +303,8 @@
                                     "bindingLabel": "Title"
                                 }
                             ],
-                            "id": "6bd0c34d-58ea-45f2-b2b7-304d4ce9d8ad",
+                            "id": "1eec8cbe-0a4d-4d3b-b605-7efe82eac3f2",
                             "thunkableVersion": 413,
-                            "bindings": {},
                             "name": "TitleWrapper"
                         },
                         {
@@ -404,7 +403,7 @@
                                         "numberOfLines": 1
                                     },
                                     "children": [],
-                                    "id": "5d507083-b63e-4733-b436-ac45a07734ac",
+                                    "id": "0f2f520e-7265-4c13-b0fb-eda7553bb1e5",
                                     "thunkableVersion": 413,
                                     "bindings": {
                                         "Text": {
@@ -435,21 +434,18 @@
                                         }
                                     },
                                     "children": [],
-                                    "id": "d41eedca-5e19-4d71-a054-6584278ef124",
+                                    "id": "f5a256e0-0d23-4972-a09d-10661a7e5f10",
                                     "thunkableVersion": 413,
-                                    "bindings": {},
                                     "name": "Caret"
                                 }
                             ],
-                            "id": "46c4f488-d3a8-47f5-8f32-df070865e750",
+                            "id": "e940a0f8-3557-4e24-9b08-3d7861fbad56",
                             "thunkableVersion": 413,
-                            "bindings": {},
                             "name": "SubtitleWrapper"
                         }
                     ],
-                    "id": "b63d64c1-bd41-4376-96bf-98308e030f8b",
+                    "id": "bf0367cd-cbe6-49fd-9596-054f0ed35f25",
                     "thunkableVersion": 413,
-                    "bindings": {},
                     "name": "LayoutWrapper"
                 }
             ],
@@ -478,10 +474,10 @@
                 "Height": 82,
                 "Width": 319,
                 "Visible": true,
-                "X": 15,
-                "Y": 320,
-                "RelativeX": 15,
-                "RelativeY": 320,
+                "X": 32,
+                "Y": 573,
+                "RelativeX": 32,
+                "RelativeY": 573,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -522,13 +518,13 @@
                 },
                 "ParentId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b",
                 "position": "absolute",
-                "edgeOffsets": 320.99999999999994,
+                "edgeOffsets": 573,
                 "children": "Label"
             },
             "children": [],
             "id": "1426e37f-6152-44f4-ad81-60337cde1315",
             "thunkableVersion": 413,
-            "name": "Label1"
+            "name": "Preview Course Label"
         },
         {
             "type": "Button",
@@ -542,10 +538,10 @@
                 "Height": 50,
                 "Width": 321,
                 "Visible": true,
-                "X": 28,
-                "Y": 591,
-                "RelativeX": 28,
-                "RelativeY": 591,
+                "X": 29,
+                "Y": 513,
+                "RelativeX": 29,
+                "RelativeY": 513,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -576,7 +572,7 @@
                 "Disabled": false,
                 "ParentId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b",
                 "position": "absolute",
-                "edgeOffsets": 591
+                "edgeOffsets": 513
             },
             "children": [],
             "id": "620c600f-14ee-4ae1-9880-61417f163830",
@@ -647,13 +643,13 @@
                 "LineHeight": 1,
                 "Color": "rgba(0, 0, 0, 1)",
                 "TextAlign": "center",
-                "Height": 45,
-                "Width": 311,
+                "Height": 29,
+                "Width": 313,
                 "Visible": true,
-                "X": 19,
-                "Y": 408,
-                "RelativeX": 19,
-                "RelativeY": 408,
+                "X": 29,
+                "Y": 324,
+                "RelativeX": 29,
+                "RelativeY": 324,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -695,7 +691,7 @@
                 },
                 "ParentId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b",
                 "position": "absolute",
-                "edgeOffsets": 408.99999999999994,
+                "edgeOffsets": 324,
                 "children": "Courses Already Chosen",
                 "Font": "Montserrat"
             },
@@ -769,12 +765,12 @@
                 "LineHeight": 1,
                 "Color": "rgba(0, 0, 0, 1)",
                 "TextAlign": "center",
-                "Height": 33,
-                "Width": 377,
+                "Height": 26,
+                "Width": 379,
                 "Visible": true,
-                "X": -2,
+                "X": 0,
                 "Y": 53,
-                "RelativeX": -2,
+                "RelativeX": 0,
                 "RelativeY": 53,
                 "ResizeMode": "STRETCH",
                 "style": {
@@ -817,7 +813,7 @@
                 },
                 "ParentId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b",
                 "position": "absolute",
-                "edgeOffsets": 53.999999999999986,
+                "edgeOffsets": 53,
                 "children": "Select Previous Courses",
                 "Font": "Montserrat"
             },

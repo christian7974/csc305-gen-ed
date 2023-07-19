@@ -379,6 +379,11 @@
                     "scope": "APP",
                     "name": "indexCourseToDelete",
                     "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
+                },
+                "ce88d3be-d6b8-45f6-9f65-10ec4d52fe6d": {
+                    "scope": "APP",
+                    "name": "canDeleteCourse",
+                    "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
                 }
             },
             "defaultDesignerDevice": "PHONE",
