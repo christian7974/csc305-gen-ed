@@ -360,11 +360,6 @@
                     "name": "currentCourseObject",
                     "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
                 },
-                "8218b8e4-f190-4c63-a393-041b9c138b28": {
-                    "scope": "APP",
-                    "name": "courseInformation",
-                    "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
-                },
                 "d4c0fbc1-2430-441e-9674-a73d98f90cb2": {
                     "scope": "APP",
                     "name": "previouseCourseList",
