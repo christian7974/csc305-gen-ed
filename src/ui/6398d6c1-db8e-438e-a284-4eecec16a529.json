@@ -169,7 +169,6 @@
                 "Y": 488,
                 "RelativeX": 91,
                 "RelativeY": 488,
-
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -201,7 +200,6 @@
                 "ParentId": "6398d6c1-db8e-438e-a284-4eecec16a529",
                 "position": "absolute",
                 "edgeOffsets": 488,
-
                 "Font": "Montserrat"
             },
             "children": [],

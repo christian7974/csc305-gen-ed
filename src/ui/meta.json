@@ -4,7 +4,21 @@
             "apiComponents": {
                 "ApiContainer": {
                     "id": "ApiContainer",
-                    "children": []
+                    "children": [
+                        {
+                            "type": "Web API",
+                            "translatedName": "Web API",
+                            "isApi": true,
+                            "reactType": "Web",
+                            "properties": {
+                                "URL": "https://geded-a2a21-default-rtdb.firebaseio.com/courses/2023.json"
+                            },
+                            "children": [],
+                            "id": "7476f345-09fb-4de2-b88c-5d65de23df6c",
+                            "thunkableVersion": 413,
+                            "name": "FirebaseRTDBCourses"
+                        }
+                    ]
                 }
             },
             "assets": {},
