@@ -364,6 +364,21 @@
                     "scope": "APP",
                     "name": "courseInformation",
                     "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
+                },
+                "d4c0fbc1-2430-441e-9674-a73d98f90cb2": {
+                    "scope": "APP",
+                    "name": "previouseCourseList",
+                    "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
+                },
+                "0b010d7c-7bc2-4d9d-93bd-8c0c2656c897": {
+                    "scope": "APP",
+                    "name": "previousCourseCodeList",
+                    "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
+                },
+                "62cec2ea-13cc-430d-900e-5a1175d5326b": {
+                    "scope": "APP",
+                    "name": "indexCourseToDelete",
+                    "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
                 }
             },
             "defaultDesignerDevice": "PHONE",
