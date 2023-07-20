@@ -40,15 +40,21 @@
                 },
                 "1e12fd1b-5384-4b1d-83a0-c0d189e3243f": {},
                 "fe94a51b-d086-4c36-94e1-cf86da011cf5": {},
-                "c96ae409-9790-4777-882d-5dc2a4454d22": {},
-                "6398d6c1-db8e-438e-a284-4eecec16a529": {},
-                "90263f22-e960-4359-b3da-0ccdfcd0b144": {
+                "c96ae409-9790-4777-882d-5dc2a4454d22": {
                     "xml": "",
                     "permissions": {
                         "android": [],
                         "ios": []
                     }
-                }
+                },
+                "6398d6c1-db8e-438e-a284-4eecec16a529": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    }
+                },
+                "64ae0499dd563278ceffa242": {}
             },
             "categories": [
                 "Education"
@@ -60,8 +66,7 @@
                     "fe94a51b-d086-4c36-94e1-cf86da011cf5",
                     "30fbaec3-2f86-4d1c-86d7-af016b2ae18b",
                     "ed736d61-bde2-4c97-bc86-03c13883dc4c",
-                    "1e12fd1b-5384-4b1d-83a0-c0d189e3243f",
-                    "90263f22-e960-4359-b3da-0ccdfcd0b144"
+                    "1e12fd1b-5384-4b1d-83a0-c0d189e3243f"
                 ]
             },
             "figmaComponents": {},
@@ -393,6 +398,61 @@
                     "scope": "APP",
                     "name": "canDeleteCourse",
                     "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
+                },
+                "f6903a66-6411-41ac-a694-8f65c3ed4de7": {
+                    "scope": "STORED",
+                    "name": "email",
+                    "screenId": "6398d6c1-db8e-438e-a284-4eecec16a529"
+                },
+                "13a9a711-143f-4056-91c4-ea0f3142f192": {
+                    "scope": "STORED",
+                    "name": "password",
+                    "screenId": "6398d6c1-db8e-438e-a284-4eecec16a529"
+                },
+                "7f048363-86ff-402b-8697-8d7c6ab0187c": {
+                    "scope": "APP",
+                    "name": "isSignIn",
+                    "screenId": "6398d6c1-db8e-438e-a284-4eecec16a529"
+                },
+                "2bce2478-acb5-4023-85ec-c300d3bed9ab": {
+                    "scope": "APP",
+                    "name": "userId",
+                    "screenId": "6398d6c1-db8e-438e-a284-4eecec16a529"
+                },
+                "dbcf0d68-3577-49c5-8248-ea854e4d821c": {
+                    "scope": "APP",
+                    "name": "responseVariable",
+                    "screenId": "ed736d61-bde2-4c97-bc86-03c13883dc4c"
+                },
+                "6b2c39d7-d54f-43dd-971c-774d564627a8": {
+                    "scope": "APP",
+                    "name": "currentMajor",
+                    "screenId": "ed736d61-bde2-4c97-bc86-03c13883dc4c"
+                },
+                "3e516c25-9ae6-4065-93be-656db384e800": {
+                    "scope": "APP",
+                    "name": "currentCourse",
+                    "screenId": "ed736d61-bde2-4c97-bc86-03c13883dc4c"
+                },
+                "483f3b59-03b4-407d-8d85-45ec75d7e052": {
+                    "scope": "APP",
+                    "name": "willTakeList",
+                    "screenId": "ed736d61-bde2-4c97-bc86-03c13883dc4c"
+                },
+                "e5f0604b-a473-4ec7-921e-fb377fdc35bf": {
+                    "scope": "APP",
+                    "name": "currentCourse",
+                    "screenId": "ed736d61-bde2-4c97-bc86-03c13883dc4c"
+                },
+                "06bfea73-483a-4d60-9009-54111a641fac": {
+                    "scope": "APP",
+                    "name": "indexToRemove",
+                    "screenId": "ed736d61-bde2-4c97-bc86-03c13883dc4c"
+                },
+                "98279fd6-1ef8-4aa2-a423-a35ff5bc5299": {
+                    "scope": "APP",
+                    "name": "canRemove",
+                    "screenId": "ed736d61-bde2-4c97-bc86-03c13883dc4c"
                 }
             },
             "defaultDesignerDevice": "PHONE",
