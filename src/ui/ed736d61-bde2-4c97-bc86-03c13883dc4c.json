@@ -121,7 +121,7 @@
                 "RelativeX": 12,
                 "RelativeY": 119,
                 "ResizeMode": "STRETCH",
-                "BackgroundColor": "rgba(126, 211, 33, 1)",
+                "BackgroundColor": "rgba(171, 238, 100, 1)",
                 "BackgroundPictureResizeMode": "contain",
                 "Position": "Relative to Screen",
                 "TouchOpacity": 20,
@@ -133,7 +133,7 @@
                     "left": "22%",
                     "top": "33.82215142428785%",
                     "display": "none",
-                    "backgroundColor": "rgba(126, 211, 33, 1)"
+                    "backgroundColor": "rgba(171, 238, 100, 1)"
                 },
                 "resizeMode": "contain"
             },
@@ -147,13 +147,13 @@
                         "FontSize": 16,
                         "CustomFont": "",
                         "BackgroundColor": "rgba(208, 2, 27, 1)",
-                        "Height": 48,
-                        "Width": 81,
+                        "Height": 50,
+                        "Width": 156,
                         "Visible": true,
-                        "X": 256,
-                        "Y": 543,
-                        "RelativeX": 244,
-                        "RelativeY": 424,
+                        "X": 206,
+                        "Y": 542,
+                        "RelativeX": 194,
+                        "RelativeY": 423,
                         "ResizeMode": "STRETCH",
                         "style": {
                             "marginTop": 0,
@@ -184,7 +184,7 @@
                         "Disabled": false,
                         "ParentId": "ed736d61-bde2-4c97-bc86-03c13883dc4c",
                         "position": "absolute",
-                        "edgeOffsets": 543
+                        "edgeOffsets": 542
                     },
                     "children": [],
                     "id": "58a3e416-e95f-490c-aec1-c00f9c73c739",
@@ -477,13 +477,13 @@
                         "FontSize": 16,
                         "CustomFont": "",
                         "BackgroundColor": "rgba(255, 177, 37, 1)",
-                        "Height": 48,
-                        "Width": 81,
+                        "Height": 50,
+                        "Width": 156,
                         "Visible": true,
-                        "X": 45,
-                        "Y": 544,
-                        "RelativeX": 33,
-                        "RelativeY": 425,
+                        "X": 20,
+                        "Y": 542,
+                        "RelativeX": 8,
+                        "RelativeY": 423,
                         "ResizeMode": "STRETCH",
                         "style": {
                             "marginTop": 0,
@@ -514,7 +514,7 @@
                         "Disabled": false,
                         "ParentId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b",
                         "position": "absolute",
-                        "edgeOffsets": 544
+                        "edgeOffsets": 542
                     },
                     "children": [],
                     "id": "83d10d6c-6535-4e80-8ede-18501094b854",
