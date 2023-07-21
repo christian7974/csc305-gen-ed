@@ -65,7 +65,7 @@
                 "iosVersionNumber": "1",
                 "iosBuildNumber": "1",
                 "firebaseAPIKey": "AIzaSyBdyfXuv1sBvQwzZao8GyxO7FnIAAFxoYs",
-                "firebaseDatabaseURL": null,
+                "firebaseDatabaseURL": "https://geded-a2a21-default-rtdb.firebaseio.com/",
                 "stripePublishableKeyTest": null,
                 "stripePublishableKeyLive": null,
                 "stripeAccountId": null,
