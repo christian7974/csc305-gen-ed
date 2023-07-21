@@ -11,6 +11,19 @@
                             "isApi": true,
                             "reactType": "Web",
                             "properties": {
+                                "URL": "https://geded-a2a21-default-rtdb.firebaseio.com/users/Ut33BgC2Cdbg4L1Tv2zF5Ugw5IF3/users/Ut33BgC2Cdbg4L1Tv2zF5Ugw5IF3.JSON"
+                            },
+                            "children": [],
+                            "id": "1d493a42-3b5b-44ad-bae4-8a4d70369a00",
+                            "thunkableVersion": 413,
+                            "name": "FirebaseUserData"
+                        },
+                        {
+                            "type": "Web API",
+                            "translatedName": "Web API",
+                            "isApi": true,
+                            "reactType": "Web",
+                            "properties": {
                                 "URL": "https://geded-a2a21-default-rtdb.firebaseio.com/courses/2023.json"
                             },
                             "children": [],
@@ -90,8 +103,8 @@
                 "androidVersionCode": 1,
                 "iosVersionNumber": "1",
                 "iosBuildNumber": "1",
-                "firebaseAPIKey": null,
-                "firebaseDatabaseURL": null,
+                "firebaseAPIKey": "AIzaSyBdyfXuv1sBvQwzZao8GyxO7FnIAAFxoYs",
+                "firebaseDatabaseURL": "https://geded-a2a21-default-rtdb.firebaseio.com/",
                 "stripePublishableKeyTest": null,
                 "stripePublishableKeyLive": null,
                 "stripeAccountId": null,
@@ -134,8 +147,8 @@
                 "androidVersionCode": 1,
                 "iosVersionNumber": "1",
                 "iosBuildNumber": "1",
-                "firebaseAPIKey": null,
-                "firebaseDatabaseURL": null,
+                "firebaseAPIKey": "AIzaSyBdyfXuv1sBvQwzZao8GyxO7FnIAAFxoYs",
+                "firebaseDatabaseURL": "https://geded-a2a21-default-rtdb.firebaseio.com/",
                 "stripePublishableKeyTest": null,
                 "stripePublishableKeyLive": null,
                 "stripeAccountId": null,
@@ -445,11 +458,6 @@
                     "name": "willTakeList",
                     "screenId": "ed736d61-bde2-4c97-bc86-03c13883dc4c"
                 },
-                "e5f0604b-a473-4ec7-921e-fb377fdc35bf": {
-                    "scope": "APP",
-                    "name": "currentCourse",
-                    "screenId": "ed736d61-bde2-4c97-bc86-03c13883dc4c"
-                },
                 "06bfea73-483a-4d60-9009-54111a641fac": {
                     "scope": "APP",
                     "name": "indexToRemove",
@@ -458,6 +466,11 @@
                 "98279fd6-1ef8-4aa2-a423-a35ff5bc5299": {
                     "scope": "APP",
                     "name": "canRemove",
+                    "screenId": "ed736d61-bde2-4c97-bc86-03c13883dc4c"
+                },
+                "e5f0604b-a473-4ec7-921e-fb377fdc35bf": {
+                    "scope": "APP",
+                    "name": "currentCourse",
                     "screenId": "ed736d61-bde2-4c97-bc86-03c13883dc4c"
                 }
             },
