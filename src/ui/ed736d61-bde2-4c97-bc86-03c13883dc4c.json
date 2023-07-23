@@ -662,7 +662,7 @@
             "id": "ecf7e33b-4f2f-48c6-9f1d-d04da63b1cde",
             "thunkableVersion": 413,
             "bindings": null,
-            "name": "Select Course Label"
+            "name": "Select Course Label WTC"
         },
         {
             "type": "Label",
@@ -731,7 +731,7 @@
             "id": "18c0d0cd-73d0-4034-bd9e-79fe4e6c1f7b",
             "thunkableVersion": 413,
             "bindings": null,
-            "name": "Select Major Label"
+            "name": "Select Major Label WTC"
         },
         {
             "type": "Label",
@@ -799,7 +799,7 @@
             "children": [],
             "id": "5b98a1f2-65bc-4707-a18d-4da079c453cf",
             "thunkableVersion": 413,
-            "name": "Courses Already Chosen Label"
+            "name": "Courses Already Chosen Label WTC"
         },
         {
             "type": "Button",
@@ -853,7 +853,7 @@
             "children": [],
             "id": "5e5e7cd2-13ba-40d7-848e-e861b79ce333",
             "thunkableVersion": 413,
-            "name": "Finish Up Button1"
+            "name": "Finish Up Button"
         },
         {
             "type": "List Viewer",
@@ -1013,7 +1013,7 @@
             "children": [],
             "id": "6adfef6f-8051-464a-ac58-63902bdf1618",
             "thunkableVersion": 413,
-            "name": "List Pick Major"
+            "name": "List Pick Major WTC"
         },
         {
             "type": "Label",
