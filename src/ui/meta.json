@@ -393,31 +393,6 @@
             "totalStar": "0",
             "starAction": "star",
             "variables": {
-                "2e5e81ec-0f80-49e3-9869-2409b66c191f": {
-                    "scope": "APP",
-                    "name": "currentCourseObject",
-                    "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
-                },
-                "d4c0fbc1-2430-441e-9674-a73d98f90cb2": {
-                    "scope": "APP",
-                    "name": "previouseCourseList",
-                    "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
-                },
-                "0b010d7c-7bc2-4d9d-93bd-8c0c2656c897": {
-                    "scope": "APP",
-                    "name": "previousCourseCodeList",
-                    "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
-                },
-                "62cec2ea-13cc-430d-900e-5a1175d5326b": {
-                    "scope": "APP",
-                    "name": "indexCourseToDelete",
-                    "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
-                },
-                "ce88d3be-d6b8-45f6-9f65-10ec4d52fe6d": {
-                    "scope": "APP",
-                    "name": "canDeleteCourse",
-                    "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
-                },
                 "f6903a66-6411-41ac-a694-8f65c3ed4de7": {
                     "scope": "STORED",
                     "name": "email",
@@ -440,17 +415,17 @@
                 },
                 "dbcf0d68-3577-49c5-8248-ea854e4d821c": {
                     "scope": "APP",
-                    "name": "responseVariable",
+                    "name": "responseVariableWTC",
                     "screenId": "ed736d61-bde2-4c97-bc86-03c13883dc4c"
                 },
                 "6b2c39d7-d54f-43dd-971c-774d564627a8": {
                     "scope": "APP",
-                    "name": "currentMajor",
+                    "name": "currentMajorWTC",
                     "screenId": "ed736d61-bde2-4c97-bc86-03c13883dc4c"
                 },
                 "3e516c25-9ae6-4065-93be-656db384e800": {
                     "scope": "APP",
-                    "name": "currentCourse",
+                    "name": "currentCourseWTC",
                     "screenId": "ed736d61-bde2-4c97-bc86-03c13883dc4c"
                 },
                 "483f3b59-03b4-407d-8d85-45ec75d7e052": {
@@ -472,6 +447,41 @@
                     "scope": "APP",
                     "name": "currentCourse",
                     "screenId": "ed736d61-bde2-4c97-bc86-03c13883dc4c"
+                },
+                "1a74befb-37c9-41bb-9216-dc4efe84fd51": {
+                    "scope": "APP",
+                    "name": "responseVariablePTC",
+                    "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
+                },
+                "216e3a4c-a1f0-4654-b103-1ba32aff765d": {
+                    "scope": "APP",
+                    "name": "currentMajorPTC",
+                    "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
+                },
+                "f4b72880-1916-4ba4-8e8e-a021253f67f7": {
+                    "scope": "APP",
+                    "name": "currentCoursePTC",
+                    "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
+                },
+                "b60ed73b-6914-4fd9-86a7-fba945264134": {
+                    "scope": "APP",
+                    "name": "previouslyTakenList",
+                    "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
+                },
+                "1900f8a9-8eaf-4181-aa96-0e3dcf185e1f": {
+                    "scope": "APP",
+                    "name": "indexToRemovePTC",
+                    "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
+                },
+                "eebfa008-35eb-47d0-876c-5e79895904e3": {
+                    "scope": "APP",
+                    "name": "canRemovePTC",
+                    "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
+                },
+                "0486fded-3399-432e-8523-a28323cdd921": {
+                    "scope": "APP",
+                    "name": "currentCoursePTC",
+                    "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
                 }
             },
             "defaultDesignerDevice": "PHONE",

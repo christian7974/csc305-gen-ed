@@ -67,10 +67,10 @@
                 "Height": 45,
                 "Width": 311,
                 "Visible": true,
-                "X": 23,
-                "Y": 125,
-                "RelativeX": 23,
-                "RelativeY": 125,
+                "X": 32,
+                "Y": 92,
+                "RelativeX": 32,
+                "RelativeY": 92,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -111,7 +111,7 @@
                 },
                 "ParentId": "1e12fd1b-5384-4b1d-83a0-c0d189e3243f",
                 "position": "absolute",
-                "edgeOffsets": 125,
+                "edgeOffsets": 92.00000000000001,
                 "children": "Label"
             },
             "children": [],
