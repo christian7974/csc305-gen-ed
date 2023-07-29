@@ -55,6 +55,59 @@
     },
     "children": [
         {
+            "type": "Button",
+            "translatedName": "Button",
+            "properties": {
+                "Text": "Button",
+                "TextColor": "#FFFFFF",
+                "FontSize": 16,
+                "CustomFont": "",
+                "BackgroundColor": "rgba(93, 122, 252, 100)",
+                "Height": 49,
+                "Width": 311,
+                "Visible": true,
+                "X": 26,
+                "Y": 597,
+                "RelativeX": 26,
+                "RelativeY": 597,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "borderRadius": 15,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "41.46666666666667%",
+                    "top": "88.09501499250375%",
+                    "display": "flex"
+                },
+                "FontBold": false,
+                "FontItalic": false,
+                "Raised": false,
+                "Disabled": false,
+                "ParentId": "fe94a51b-d086-4c36-94e1-cf86da011cf5",
+                "position": "absolute",
+                "edgeOffsets": 597
+            },
+            "children": [],
+            "id": "aa692ec1-217e-4236-b152-89abe81adeed",
+            "thunkableVersion": 413,
+            "name": "Button1"
+        },
+        {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
@@ -168,10 +221,10 @@
                 "Height": 53,
                 "Width": 147,
                 "Visible": true,
-                "X": 117,
-                "Y": 543,
-                "RelativeX": 117,
-                "RelativeY": 543,
+                "X": 114,
+                "Y": 522,
+                "RelativeX": 114,
+                "RelativeY": 522,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -202,7 +255,7 @@
                 "Disabled": false,
                 "ParentId": "fe94a51b-d086-4c36-94e1-cf86da011cf5",
                 "position": "absolute",
-                "edgeOffsets": 543,
+                "edgeOffsets": 522,
                 "Font": "Montserrat"
             },
             "children": [],

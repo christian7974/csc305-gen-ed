@@ -11,6 +11,19 @@
                             "isApi": true,
                             "reactType": "Web",
                             "properties": {
+                                "URL": "https://geded-a2a21-default-rtdb.firebaseio.com/users/Ut33BgC2Cdbg4L1Tv2zF5Ugw5IF3/users/Ut33BgC2Cdbg4L1Tv2zF5Ugw5IF3.JSON"
+                            },
+                            "children": [],
+                            "id": "1d493a42-3b5b-44ad-bae4-8a4d70369a00",
+                            "thunkableVersion": 413,
+                            "name": "FirebaseUserData"
+                        },
+                        {
+                            "type": "Web API",
+                            "translatedName": "Web API",
+                            "isApi": true,
+                            "reactType": "Web",
+                            "properties": {
                                 "URL": "https://geded-a2a21-default-rtdb.firebaseio.com/courses/2023.json"
                             },
                             "children": [],
@@ -24,9 +37,21 @@
             "assets": {},
             "backendUpgradeVersion": 20,
             "blockly": {
-                "30fbaec3-2f86-4d1c-86d7-af016b2ae18b": {},
-                "ed736d61-bde2-4c97-bc86-03c13883dc4c": {},
-                "6398d6c1-db8e-438e-a284-4eecec16a529": {
+                "30fbaec3-2f86-4d1c-86d7-af016b2ae18b": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    }
+                },
+                "ed736d61-bde2-4c97-bc86-03c13883dc4c": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    }
+                },
+                "1e12fd1b-5384-4b1d-83a0-c0d189e3243f": {
                     "xml": "",
                     "permissions": {
                         "android": [],
@@ -34,7 +59,21 @@
                     }
                 },
                 "fe94a51b-d086-4c36-94e1-cf86da011cf5": {},
-                "c96ae409-9790-4777-882d-5dc2a4454d22": {}
+                "c96ae409-9790-4777-882d-5dc2a4454d22": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    }
+                },
+                "6398d6c1-db8e-438e-a284-4eecec16a529": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    }
+                },
+                "64ae0499dd563278ceffa242": {}
             },
             "categories": [
                 "Education"
@@ -52,7 +91,7 @@
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "GenEd",
+            "projectName": "Group1 Wireframe",
             "settings": {
                 "teamId": null,
                 "appName": null,
@@ -109,7 +148,7 @@
                 "iosVersionNumber": "1",
                 "iosBuildNumber": "1",
                 "firebaseAPIKey": "AIzaSyBdyfXuv1sBvQwzZao8GyxO7FnIAAFxoYs",
-                "firebaseDatabaseURL": null,
+                "firebaseDatabaseURL": "https://geded-a2a21-default-rtdb.firebaseio.com/",
                 "stripePublishableKeyTest": null,
                 "stripePublishableKeyLive": null,
                 "stripeAccountId": null,
@@ -154,9 +193,9 @@
             "totalStar": "0",
             "starAction": "star",
             "variables": {
-                "7f048363-86ff-402b-8697-8d7c6ab0187c": {
-                    "scope": "APP",
-                    "name": "isSignIn",
+                "f6903a66-6411-41ac-a694-8f65c3ed4de7": {
+                    "scope": "STORED",
+                    "name": "email",
                     "screenId": "6398d6c1-db8e-438e-a284-4eecec16a529"
                 },
                 "13a9a711-143f-4056-91c4-ea0f3142f192": {
@@ -164,15 +203,85 @@
                     "name": "password",
                     "screenId": "6398d6c1-db8e-438e-a284-4eecec16a529"
                 },
-                "f6903a66-6411-41ac-a694-8f65c3ed4de7": {
-                    "scope": "STORED",
-                    "name": "email",
+                "7f048363-86ff-402b-8697-8d7c6ab0187c": {
+                    "scope": "APP",
+                    "name": "isSignIn",
                     "screenId": "6398d6c1-db8e-438e-a284-4eecec16a529"
                 },
                 "2bce2478-acb5-4023-85ec-c300d3bed9ab": {
                     "scope": "APP",
                     "name": "userId",
                     "screenId": "6398d6c1-db8e-438e-a284-4eecec16a529"
+                },
+                "dbcf0d68-3577-49c5-8248-ea854e4d821c": {
+                    "scope": "APP",
+                    "name": "responseVariableWTC",
+                    "screenId": "ed736d61-bde2-4c97-bc86-03c13883dc4c"
+                },
+                "6b2c39d7-d54f-43dd-971c-774d564627a8": {
+                    "scope": "APP",
+                    "name": "currentMajorWTC",
+                    "screenId": "ed736d61-bde2-4c97-bc86-03c13883dc4c"
+                },
+                "3e516c25-9ae6-4065-93be-656db384e800": {
+                    "scope": "APP",
+                    "name": "currentCourseWTC",
+                    "screenId": "ed736d61-bde2-4c97-bc86-03c13883dc4c"
+                },
+                "483f3b59-03b4-407d-8d85-45ec75d7e052": {
+                    "scope": "APP",
+                    "name": "willTakeList",
+                    "screenId": "ed736d61-bde2-4c97-bc86-03c13883dc4c"
+                },
+                "06bfea73-483a-4d60-9009-54111a641fac": {
+                    "scope": "APP",
+                    "name": "indexToRemove",
+                    "screenId": "ed736d61-bde2-4c97-bc86-03c13883dc4c"
+                },
+                "98279fd6-1ef8-4aa2-a423-a35ff5bc5299": {
+                    "scope": "APP",
+                    "name": "canRemove",
+                    "screenId": "ed736d61-bde2-4c97-bc86-03c13883dc4c"
+                },
+                "e5f0604b-a473-4ec7-921e-fb377fdc35bf": {
+                    "scope": "APP",
+                    "name": "currentCourse",
+                    "screenId": "ed736d61-bde2-4c97-bc86-03c13883dc4c"
+                },
+                "1a74befb-37c9-41bb-9216-dc4efe84fd51": {
+                    "scope": "APP",
+                    "name": "responseVariablePTC",
+                    "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
+                },
+                "216e3a4c-a1f0-4654-b103-1ba32aff765d": {
+                    "scope": "APP",
+                    "name": "currentMajorPTC",
+                    "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
+                },
+                "f4b72880-1916-4ba4-8e8e-a021253f67f7": {
+                    "scope": "APP",
+                    "name": "currentCoursePTC",
+                    "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
+                },
+                "b60ed73b-6914-4fd9-86a7-fba945264134": {
+                    "scope": "APP",
+                    "name": "previouslyTakenList",
+                    "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
+                },
+                "1900f8a9-8eaf-4181-aa96-0e3dcf185e1f": {
+                    "scope": "APP",
+                    "name": "indexToRemovePTC",
+                    "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
+                },
+                "eebfa008-35eb-47d0-876c-5e79895904e3": {
+                    "scope": "APP",
+                    "name": "canRemovePTC",
+                    "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
+                },
+                "0486fded-3399-432e-8523-a28323cdd921": {
+                    "scope": "APP",
+                    "name": "currentCoursePTC",
+                    "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
                 }
             },
             "defaultDesignerDevice": "PHONE",
