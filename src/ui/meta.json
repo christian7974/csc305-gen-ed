@@ -29,7 +29,7 @@
                             "children": [],
                             "id": "7476f345-09fb-4de2-b88c-5d65de23df6c",
                             "thunkableVersion": 413,
-                            "name": "FirebaseRTDBCourses"
+                            "name": "Firebase_RTDB_Courses"
                         }
                     ]
                 }
@@ -58,7 +58,13 @@
                         "ios": []
                     }
                 },
-                "fe94a51b-d086-4c36-94e1-cf86da011cf5": {},
+                "fe94a51b-d086-4c36-94e1-cf86da011cf5": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    }
+                },
                 "c96ae409-9790-4777-882d-5dc2a4454d22": {
                     "xml": "",
                     "permissions": {
@@ -282,6 +288,11 @@
                     "scope": "APP",
                     "name": "currentCoursePTC",
                     "screenId": "30fbaec3-2f86-4d1c-86d7-af016b2ae18b"
+                },
+                "67116b59-0b93-43f2-b2e9-5d9443481d88": {
+                    "scope": "APP",
+                    "name": "outcomeToBit",
+                    "screenId": "fe94a51b-d086-4c36-94e1-cf86da011cf5"
                 }
             },
             "defaultDesignerDevice": "PHONE",
