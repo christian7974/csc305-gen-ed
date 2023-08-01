@@ -65,7 +65,7 @@ def get_parser() -> argparse.ArgumentParser:
 	return parser
 
 
-def main():
+def main() -> None:
 	"""
 	Builds the search JSON file.
 	"""
@@ -73,7 +73,6 @@ def main():
 	# Parse the args.
 	parser = get_parser()
 	args = parser.parse_args()
-	print(args)
 
 	# Load the course data.
 	with open(args.courses_file_path, "r") as f:
@@ -104,7 +103,7 @@ def main():
 	
 	# Write the results to a file.
 	with open(args.search_file_path, "w") as f:
-		json.dump(db, f)
+		json.dump({"search": {"2023": db}}, f)
 
 
 if __name__ == "__main__":

@@ -118,7 +118,7 @@ def get_parser() -> argparse.ArgumentParser:
 	return parser
 
 
-def main():
+def main() -> None:
 	"""
 	Builds the course JSON file.
 	"""
