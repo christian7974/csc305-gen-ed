@@ -108,51 +108,6 @@
             "name": "Button1"
         },
         {
-            "type": "Image",
-            "translatedName": "Image",
-            "properties": {
-                "resizeMode": "stretch",
-                "Height": 131,
-                "Width": 153,
-                "Visible": true,
-                "X": 206,
-                "Y": 22,
-                "RelativeX": 206,
-                "RelativeY": 22,
-                "ResizeMode": "STRETCH",
-                "style": {
-                    "marginTop": 0,
-                    "marginBottom": 0,
-                    "marginLeft": 0,
-                    "marginRight": 0,
-                    "paddingTop": 0,
-                    "paddingBottom": 0,
-                    "paddingLeft": 0,
-                    "paddingRight": 0,
-                    "shadowColor": "rgba(0, 0, 0, 0)",
-                    "shadowOpacity": 0,
-                    "scaledShadowOpacity": 0,
-                    "shadowRadius": 0,
-                    "shadowOffset": {
-                        "width": 0,
-                        "height": 0
-                    },
-                    "position": "absolute",
-                    "left": "64.4%",
-                    "top": "0.5833020989505248%",
-                    "display": "flex"
-                },
-                "capInsets": {},
-                "ParentId": "fe94a51b-d086-4c36-94e1-cf86da011cf5",
-                "position": "absolute",
-                "edgeOffsets": 22.999999999999996
-            },
-            "children": [],
-            "id": "d1f94320-4fa7-40f9-bc83-93c753c93e39",
-            "thunkableVersion": 413,
-            "name": "Image1"
-        },
-        {
             "type": "List Viewer",
             "translatedName": "Simple List",
             "reactType": "ListView",
@@ -207,7 +162,52 @@
             "children": [],
             "id": "5cd17c12-4eea-4eed-8e39-41ee9c20b531",
             "thunkableVersion": 413,
-            "name": "Simple_List1"
+            "name": "Search_Result_List"
+        },
+        {
+            "type": "Image",
+            "translatedName": "Image",
+            "properties": {
+                "resizeMode": "stretch",
+                "Height": 131,
+                "Width": 153,
+                "Visible": true,
+                "X": 206,
+                "Y": 22,
+                "RelativeX": 206,
+                "RelativeY": 22,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "64.4%",
+                    "top": "0.5833020989505248%",
+                    "display": "flex"
+                },
+                "capInsets": {},
+                "ParentId": "fe94a51b-d086-4c36-94e1-cf86da011cf5",
+                "position": "absolute",
+                "edgeOffsets": 22.999999999999996
+            },
+            "children": [],
+            "id": "d1f94320-4fa7-40f9-bc83-93c753c93e39",
+            "thunkableVersion": 413,
+            "name": "Image1"
         },
         {
             "type": "Button",
