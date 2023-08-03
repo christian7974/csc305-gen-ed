@@ -89,7 +89,7 @@
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "Group1 Wireframe",
+            "projectName": "Calvins2 Group1 Wireframe",
             "settings": {
                 "teamId": null,
                 "appName": null,
@@ -285,6 +285,16 @@
                     "scope": "APP",
                     "name": "outcome_to_bit",
                     "screenId": "6398d6c1-db8e-438e-a284-4eecec16a529"
+                },
+                "fea91512-ee9e-44d3-8b23-03668f8d2815": {
+                    "scope": "APP",
+                    "name": "selectedCourses",
+                    "screenId": "fe94a51b-d086-4c36-94e1-cf86da011cf5"
+                },
+                "75359b87-8aad-467c-b696-2d21530933f0": {
+                    "scope": "APP",
+                    "name": "indexToRemoveSS",
+                    "screenId": "fe94a51b-d086-4c36-94e1-cf86da011cf5"
                 }
             },
             "defaultDesignerDevice": "PHONE",
