@@ -177,13 +177,13 @@
             "translatedName": "Image",
             "properties": {
                 "resizeMode": "stretch",
-                "Height": 133,
-                "Width": 274,
+                "Height": 154,
+                "Width": 211,
                 "Visible": true,
-                "X": 51,
-                "Y": 20,
-                "RelativeX": 51,
-                "RelativeY": 20,
+                "X": 83,
+                "Y": 13,
+                "RelativeX": 83,
+                "RelativeY": 13,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -210,7 +210,8 @@
                 "capInsets": {},
                 "ParentId": "6398d6c1-db8e-438e-a284-4eecec16a529",
                 "position": "absolute",
-                "edgeOffsets": 20
+                "edgeOffsets": 13,
+                "Picture": "coursiquity_logo.png"
             },
             "children": [],
             "id": "3ca2a8c3-65c9-443d-b6fc-04ef7a755a6c",

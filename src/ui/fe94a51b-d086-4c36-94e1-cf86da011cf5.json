@@ -301,13 +301,13 @@
             "translatedName": "Image",
             "properties": {
                 "resizeMode": "stretch",
-                "Height": 131,
-                "Width": 153,
+                "Height": 134,
+                "Width": 169,
                 "Visible": true,
-                "X": 211,
-                "Y": 12,
-                "RelativeX": 211,
-                "RelativeY": 12,
+                "X": 188,
+                "Y": 14,
+                "RelativeX": 188,
+                "RelativeY": 14,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -334,7 +334,8 @@
                 "capInsets": {},
                 "ParentId": "fe94a51b-d086-4c36-94e1-cf86da011cf5",
                 "position": "absolute",
-                "edgeOffsets": 12
+                "edgeOffsets": 14,
+                "Picture": "coursiquity_logo.png"
             },
             "children": [],
             "id": "d1f94320-4fa7-40f9-bc83-93c753c93e39",
@@ -346,10 +347,7 @@
             "translatedName": "Simple List",
             "reactType": "ListView",
             "properties": {
-                "TextItems": [
-                    "Edit Profile",
-                    "Make Search"
-                ],
+                "TextItems": [],
                 "TextItemsColor": "rgba(176, 176, 176, 1)",
                 "TextItemsBackgroundColor": "rgba(0,0,0,0)",
                 "TextItemsFontSize": 16,
@@ -401,18 +399,18 @@
             "type": "Button",
             "translatedName": "Button",
             "properties": {
-                "Text": "Nav",
+                "Text": "Back To Profile Screen",
                 "TextColor": "#FFFFFF",
                 "FontSize": 16,
                 "CustomFont": "",
                 "BackgroundColor": "rgba(255, 177, 37, 1)",
-                "Height": 40,
-                "Width": 75,
+                "Height": 42,
+                "Width": 155,
                 "Visible": true,
-                "X": 16,
-                "Y": 30,
-                "RelativeX": 16,
-                "RelativeY": 30,
+                "X": 17,
+                "Y": 31,
+                "RelativeX": 17,
+                "RelativeY": 31,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -443,12 +441,12 @@
                 "Disabled": false,
                 "ParentId": "fe94a51b-d086-4c36-94e1-cf86da011cf5",
                 "position": "absolute",
-                "edgeOffsets": 30
+                "edgeOffsets": 31
             },
             "children": [],
             "id": "1bf57853-ec8e-4fbd-88bd-d7dce527dfdf",
             "thunkableVersion": 413,
-            "name": "Nav"
+            "name": "Button Back to Profile Screen"
         },
         {
             "type": "Label",
