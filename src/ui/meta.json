@@ -35,7 +35,7 @@
                 }
             },
             "assets": {},
-            "backendUpgradeVersion": 20,
+            "backendUpgradeVersion": 21,
             "blockly": {
                 "30fbaec3-2f86-4d1c-86d7-af016b2ae18b": {
                     "xml": "",
