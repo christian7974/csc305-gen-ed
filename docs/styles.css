@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato/Lato-Light.ttf');
+}
+
+@font-face {
+    font-family: 'bold-Lato';
+    src: url('Lato/Lato-Bold.ttf');
+}
+
+strong {
+    font-family: 'bold-Lato';
+}
+
+body {
+    font-family: 'Lato';
+    margin: 0;
+    color: #030001;
+}
+
+p {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+#header-section, #about-page, #get-coursiquity, #how-to-use {
+    padding-top: 10px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+#header-section h1 {
+    opacity: 0;
+    font-size: 64px;
+    /* animation-name duration delay forwards/backwards */
+    animation: fade-in 2s .25s forwards; 
+}
+
+#header-section h2 {
+    opacity: 0;
+    font-size: 46px;
+    animation: fade-in 2s .25s forwards; 
+}
+
+#welcome-section img {
+    opacity: 0;
+    height: 400px;
+    width: auto;
+    animation: fade-in 2s .75s forwards; 
+}
+
+.light-section {
+    background-color: #e3cb6e;
+}
+
+.dark-section {
+    background-color: #6c72e4;
+}
+
+#welcome-section {
+    height: 100vh;
+    width: 100%;
+}
+
+#header-section {
+    position: relative;
+    top: 10%;
+    width: 50%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    width: max-content;
+}
+
+#about-page {
+    height: 100vh;
+    width: 100%;
+}
+
+#about-page #content-section, #get-coursiquity #content-section, #how-to-use #content-section{
+    position: relative;
+    top: 15%;
+}
+
+#title-section, #content-section {
+    height: 75%;
+    width: 48%;
+}
+
+#title-section h1 {
+    position: relative;
+    width: 75%;
+    text-align: center;
+    margin: 25% auto 0 auto;
+    font-size: 64px;
+}
+
+#title-section {
+    padding: 12px;
+    float: left;
+}
+
+#content-section {
+    padding: 12px;
+    float: right;
+}
+
+#get-coursiquity {
+    height: 100vh;
+    width: 100%;
+}
+
+#how-to-use {
+    /* height: 100vh; */
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+#how-to-use-header {
+    text-align: center;
+    font-size: 46px;
+}
+
+#get-coursiquity #title-section, 
+#get-coursiquity #content-section,
+#about-page #title-section,
+#about-page #content-section {
+    opacity: 0;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0%;
+    } to {
+        opacity: 100%;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .fade-in {
+        animation: fade-in 2s 1 forwards;
+    }
+}
+
+table {
+    margin: 0 auto 0 auto;
+    width: 95%;
+}
+
+table, td {
+    border: black;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    width: 90px;
+    /* vertical-align: center; */
+    vertical-align: top;
+}
+
+td img {
+    height: 300px;
+    width: auto;
+}
+
+td h2 {
+    font-size: 30px;
+}
+
+td p {
+    font-size: 20px;
+}
