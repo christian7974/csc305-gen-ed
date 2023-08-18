@@ -48,11 +48,11 @@
                     "createdAt": "2023-08-03T21:59:13.541Z",
                     "updatedAt": "2023-08-03T21:59:13.541Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users%2F646cc4cb1bddacbd653db8ec%2Fprojects%2F64c57f4e9818fdec03833ee6%2Fassets%2F64cc233176fc51efe39bc379?GoogleAccessId=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com&Expires=1691868602&Signature=ik7GQuD5omZCcFrryzX4ckE1SeGuKZskg6YgnWa6D0AdahuF1OPpRYnmpZRHDjgy%2F2hs8kyCsR9IgtEI5%2Fckg2F4WMchO2SwY8alaHIjIMw23f7kRPDYTi4nI52fudiS4eSm76BTDU1a9Gp7KK1eCeFaOc5ZbdcoOQXbZb8yt813TKCqlqzmQQwOTqJrqZDtUCMNdBSlJuW%2B3Td9%2BsCPA9CC8SjWtNTrENYs9BKC0BhlFJVS3FmgNBW9Y57W3pporJ%2BFNl6DYtfZwyN6ZHASEAKIXyDjpaC8Ic83tL0Di9Kpf2Km1BSgQM0pu7FuJAEiawOAvrzEEtbyaF1Ycao2Yw%3D%3D",
-                    "signedUrlExpirationTime": 1691868602447
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users%2F646cc4cb1bddacbd653db8ec%2Fprojects%2F64c57f4e9818fdec03833ee6%2Fassets%2F64cc233176fc51efe39bc379?GoogleAccessId=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com&Expires=1692537018&Signature=sWw4GEBngSi753U1gTLcxXNLmjOGO1mT0NaU6RAD1Icfk0RD%2F%2BBS9Km5DRdrJ5i%2FAWzeaIOBCRcSuzln4YFNEkoMTcUiUVtP49bYxcPvcws09qeUPaNnsRy4umeF6f6rv9B0e7SQu3nRmlthdSyGnemYdp%2FvOOKcMRDJx2dWuuvXj%2F7EV%2FB8iMOdRBF44I7h%2BAxem8F8nV1MwEef9kH3QHYrryH1ylNJAc3mc3vg4f5aaCQ%2B31xq28FqHnbDYAt2VGlWpD%2FODKgG2al7qHhn8ZAgXS4VTORE7RMilSttcaSOg178VTorA5YntckfcJRdnPAPocPdvuE7ygp%2BS5DA4A%3D%3D",
+                    "signedUrlExpirationTime": 1692537018267
                 }
             },
-            "backendUpgradeVersion": 20,
+            "backendUpgradeVersion": 21,
             "blockly": {
                 "30fbaec3-2f86-4d1c-86d7-af016b2ae18b": {
                     "xml": "",
@@ -96,11 +96,11 @@
             ],
             "components": {
                 "children": [
-                    "6398d6c1-db8e-438e-a284-4eecec16a529",
-                    "30fbaec3-2f86-4d1c-86d7-af016b2ae18b",
-                    "ed736d61-bde2-4c97-bc86-03c13883dc4c",
-                    "1e12fd1b-5384-4b1d-83a0-c0d189e3243f",
-                    "fe94a51b-d086-4c36-94e1-cf86da011cf5"
+                    "Sign_Screen.6398d6c1-db8e-438e-a284-4eecec16a529",
+                    "Previously Taken Courses Screen.30fbaec3-2f86-4d1c-86d7-af016b2ae18b",
+                    "Will Take Courses.ed736d61-bde2-4c97-bc86-03c13883dc4c",
+                    "View Profile.1e12fd1b-5384-4b1d-83a0-c0d189e3243f",
+                    "Search_Screen.fe94a51b-d086-4c36-94e1-cf86da011cf5"
                 ]
             },
             "figmaComponents": {},
