@@ -96,6 +96,13 @@ h1 {
     font-size: 64px;
 }
 
+#title-section img {
+    display: block;
+    width: 35%;
+    height: auto;
+    margin: 20px auto 0 auto;
+}
+
 #title-section {
     padding: 12px;
     float: left;
@@ -112,7 +119,6 @@ h1 {
 }
 
 #how-to-use {
-    /* height: 100vh; */
     width: 100%;
     padding-bottom: 10px;
 }
