@@ -50,6 +50,10 @@ h1 {
     width: auto;
     animation: fade-in 2s .75s forwards; 
 }
+#title-section iframe {
+    display: block;
+    margin: 25px auto;
+}
 
 .light-section {
     background-color: #e3cb6e;
