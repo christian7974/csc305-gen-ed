@@ -48,8 +48,8 @@
                     "createdAt": "2023-08-03T21:59:13.541Z",
                     "updatedAt": "2023-08-03T21:59:13.541Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users%2F646cc4cb1bddacbd653db8ec%2Fprojects%2F64c57f4e9818fdec03833ee6%2Fassets%2F64cc233176fc51efe39bc379?GoogleAccessId=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com&Expires=1692537018&Signature=sWw4GEBngSi753U1gTLcxXNLmjOGO1mT0NaU6RAD1Icfk0RD%2F%2BBS9Km5DRdrJ5i%2FAWzeaIOBCRcSuzln4YFNEkoMTcUiUVtP49bYxcPvcws09qeUPaNnsRy4umeF6f6rv9B0e7SQu3nRmlthdSyGnemYdp%2FvOOKcMRDJx2dWuuvXj%2F7EV%2FB8iMOdRBF44I7h%2BAxem8F8nV1MwEef9kH3QHYrryH1ylNJAc3mc3vg4f5aaCQ%2B31xq28FqHnbDYAt2VGlWpD%2FODKgG2al7qHhn8ZAgXS4VTORE7RMilSttcaSOg178VTorA5YntckfcJRdnPAPocPdvuE7ygp%2BS5DA4A%3D%3D",
-                    "signedUrlExpirationTime": 1692537018267
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users%2F646cc4cb1bddacbd653db8ec%2Fprojects%2F64c57f4e9818fdec03833ee6%2Fassets%2F64cc233176fc51efe39bc379?GoogleAccessId=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com&Expires=1693579379&Signature=XjbzwTf6zrdoJ2EyssGaOJWeLhd9HcrQdtEc9eHkYgixosg0ULaALgydxHevNsi82AUQ55qbLunjnajabFAlzU%2F%2FKXWwDoDgyAEyCDp9Qvp5%2BTvpFAHFQuUtOc1B0LAXcmXCmETP42vVhudOAAdeiZ4wUuEAPtBpKa7H8bs2%2FN8dakw13knxZQrvzgjyktZRBQJ7BhmIpyu9yEJWXnUZQL2M7LQ76q90FIDMgZ%2FPEDNF%2FgD59onOQPmLftuTdu1jnlBlsBIz1%2FZBH23RK0NZYIt6kDITTUex3ECSfviwqvqmUmo0JBmGrchgWPQRzyBTI755aqSsnef%2FCUgS%2B4klNQ%3D%3D",
+                    "signedUrlExpirationTime": 1693579379175
                 }
             },
             "backendUpgradeVersion": 21,
