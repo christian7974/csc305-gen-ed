@@ -127,7 +127,7 @@ h1 {
     padding-bottom: 10px;
 }
 
-#how-to-use-header {
+.center-header {
     text-align: center;
     font-size: 46px;
 }
@@ -137,6 +137,18 @@ h1 {
 #about-page #title-section,
 #about-page #content-section {
     opacity: 0;
+}
+
+#test-app {
+    width: 100%;
+    height: 100vh;
+}
+
+#test-app iframe {
+    display: block;
+    margin: 0 auto 0 auto;
+    height: 750px;
+    width: 500px;
 }
 
 @keyframes fade-in {
