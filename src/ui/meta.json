@@ -48,8 +48,8 @@
                     "createdAt": "2023-08-03T21:59:13.541Z",
                     "updatedAt": "2023-08-03T21:59:13.541Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users%2F646cc4cb1bddacbd653db8ec%2Fprojects%2F64c57f4e9818fdec03833ee6%2Fassets%2F64cc233176fc51efe39bc379?GoogleAccessId=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com&Expires=1693579379&Signature=XjbzwTf6zrdoJ2EyssGaOJWeLhd9HcrQdtEc9eHkYgixosg0ULaALgydxHevNsi82AUQ55qbLunjnajabFAlzU%2F%2FKXWwDoDgyAEyCDp9Qvp5%2BTvpFAHFQuUtOc1B0LAXcmXCmETP42vVhudOAAdeiZ4wUuEAPtBpKa7H8bs2%2FN8dakw13knxZQrvzgjyktZRBQJ7BhmIpyu9yEJWXnUZQL2M7LQ76q90FIDMgZ%2FPEDNF%2FgD59onOQPmLftuTdu1jnlBlsBIz1%2FZBH23RK0NZYIt6kDITTUex3ECSfviwqvqmUmo0JBmGrchgWPQRzyBTI755aqSsnef%2FCUgS%2B4klNQ%3D%3D",
-                    "signedUrlExpirationTime": 1693579379175
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/646cc4cb1bddacbd653db8ec/projects/64c57f4e9818fdec03833ee6/assets/64cc233176fc51efe39bc379?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20230903%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230903T140710Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=43c5af8447b0ba03a4df1ebd8c811d200ea5bf9e049509806765ddc3824de4e2e77e59432d6c1304e5b6c2a8434fdd45b4148fa403615776e9ccb2bea2f2412f10a26ee05e0aba164226afe89fcd1ae8a3ec8311aea186b3ba003aff18bcbbe655dca97118d4d3014a0a566408630e6477cc1a926593dd61b0600dc35c98b24a6fe7b815a9102a33f29306c90a03d1ecdf2be375b9bfb4b54863c2a01adac2855d399afe77570a5fac3dbc9e6eb17d27f221cc5318948a0b0636c7c6efc4d5bc807103999d2a49bc22ecb1bab4e08e65eae31483946ae1ba8c6c6cfb2ccea207c1618be087095cc3081e50ec844507e9a6de47a36f476f4a276d97de725f4d94",
+                    "signedUrlExpirationTime": 1693922830505
                 }
             },
             "backendUpgradeVersion": 21,
@@ -106,7 +106,7 @@
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "Calvins2 Group1 Wireframe",
+            "projectName": "finishing touches",
             "settings": {
                 "teamId": null,
                 "appName": null,
